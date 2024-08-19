@@ -161,40 +161,145 @@ hello world
 
 # 12 data types 
 
-name = "John Doe"
-print(type(name))
-num1 = 10
-print(type(num1))
-num2 = 10.5
-print(type(num2))
-num3 = 2j
-print(type(num3))
-ls = [1,2,3,4,5]
-print(type(ls))
-tp = (1,2,3,4,5)
-print(type(tp))
-dic = {"name":"John Doe", "age":26}
-print(type(dic))
-st = {"John Doe",26}
-print(type(st))
+# name = "John Doe"
+# print(type(name))
+# num1 = 10
+# print(type(num1))
+# num2 = 10.5
+# print(type(num2))
+# num3 = 2j
+# print(type(num3))
+# ls = [1,2,3,4,5]
+# print(type(ls))
+# tp = (1,2,3,4,5)
+# print(type(tp))
+# dic = {"name":"John Doe", "age":26}
+# print(type(dic))
+# st = {"John Doe",26}
+# print(type(st))
 
-frst = frozenset({"hello"})
-print(type(frst))
-bln = True
-print(type(bln))
+# frst = frozenset({"hello"})
+# print(type(frst))
+# bln = True
+# print(type(bln))
 
-byt = b'hello'
-print(type(byt))
-bytearray = bytearray(b'hello')
-print(type(bytearray))
-none = None
-print(type(none))
-
-
+# byt = b'hello'
+# print(type(byt))
+# bytearray = bytearray(b'hello')
+# print(type(bytearray))
+# none = None
+# print(type(none))
 
 
+# 13 tuples
+
+# tup = ("hello","world")
+# print(tup)
+# print(type(tup))
+# tup1 = ("hello world",)
+# print(type(tup1))
+
+# tup = (1,2,3,4)
+# tup2 = (True,False,True,False)
+# tup3= ("q","a","b","c")
+# tup4 = (True,"h",3)
+# print(tup,tup2,tup3,tup4)
+
+# tup = tuple((1,2,3,4))
+# print(tup)
+
+# tup = ("hello ",1,2,3,4)
+# print(len(tup))
+# print(tup[0])
+# y = list(tup)
+# print(y)
+# y.append("world")
+# print(y)
+# tup = tuple(y)
+# print(tup)
+# print(type(tup))
+
+# tup1 = ("hello","world")
+# tup2 = ("!",)
+# tup1 += tup2
+# print(tup1)
+# tup = ("!",)
+# print(type(tup))
+
+# tup = (1,"2",3,4)
+# y = list(tup)
+# y.pop(0)
+# print(y)
+# y.remove("2")
+# del y[1]
+# del y[1]
+# print(y)
+# y.insert(0,"hello")
+# print(y)
+# tup = tuple(y)
+# print(tup)
 
 
+
+# 14 dictionaries
+# thisdict = {"name":"John Doe", "age":26, "city":"New York","list":["hello","world","!"]}
+
+# thisdict["first name"] = "Ashutosh"
+# print(thisdict["name"])
+
+# x = thisdict.get("name")
+# print(x)
+# # thisdict.update({"last name":"hello mira"})
+# print( thisdict.values())
+# print(thisdict.keys())
+# print(thisdict)
+
+# prnt = {
+#     "child1":{
+#         "name":"ashutosh",
+#         "age":24,
+#     },
+#     "child2":{
+#         "name":"Aslam",
+#         "age":30,
+#     },
+#     "child":{
+#         "name":"afaq",
+#         "age":12
+#     }
+# }
+
+# prnt["child1"] = "Ashutosh Khan"
+# prnt2 = prnt.copy()
+# print(prnt)
+# print(prnt2)
+
+dic1 = {"name":"John Doe", "age":26, "city":"New York"}
+dic2 = dic1.copy()
+dic1["name"] = "Ashutosh"
+print(dic1)
+print(dic2)
+
+
+# print(prnt)
+# print(prnt2)
+# print(prnt)
+# print(prnt2)
+
+# print(prnt)
+# print(prnt["child1"]["name"])
+
+# prnt["child1"]["name"] = "Ashutosh Khan"
+
+# print(prnt)
+
+# 15 sets
+# 16 Break continue and pass statements
+# 17 conditional ternary operator
+# 18 while loop, for loop and use of enumerate
+# 19 nested loops
+# 20 list comprehension
+# 21 iterators and iterables
 
 
 
