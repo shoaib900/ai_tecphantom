@@ -274,11 +274,11 @@ hello world
 # print(prnt)
 # print(prnt2)
 
-dic1 = {"name":"John Doe", "age":26, "city":"New York"}
-dic2 = dic1.copy()
-dic1["name"] = "Ashutosh"
-print(dic1)
-print(dic2)
+# dic1 = {"name":"John Doe", "age":26, "city":"New York"}
+# dic2 = dic1.copy()
+# dic1["name"] = "Ashutosh"
+# print(dic1)
+# print(dic2)
 
 
 # print(prnt)
@@ -288,17 +288,91 @@ print(dic2)
 
 # print(prnt)
 # print(prnt["child1"]["name"])
-
 # prnt["child1"]["name"] = "Ashutosh Khan"
-
 # print(prnt)
 
 # 15 sets
+
+# set1 = {1,2,3,4,5}
+# set2 = {"hello","world","!"}
+# set3 = {True,False,0,1}
+# print(set1, type(set1))
+
+# set1 = set({1,2,3,4,5})
+# print(set1, type(set1))
+
+# set1 = {1,2,3,4,5}
+# set2 = {"hello","world","!",9}
+
+
+# set1.update(set2)
+# set1.add(6)
+# print(set1)
+# print(len(set1)-1)
+
+# set1 = {1,2,3,4,5}
+# set2 = {5,6,7,8,9,10}
+# set3 = {11,12,13,14,15}
+# set1.remove(2)
+# set1.discard(9)
+# set3 = set1.union(set2)
+# set4 =set1|set2|set3
+# set4 = set1.intersection(set2,set3)
+# set4 = set1 & set2
+# set4 = set1 | set2 & set3 
+# set4 = set1.difference(set2)
+# set4 = set1 - set2
+# print(set4)
+
+# set1 = {1,2,3,4,5}
+# print( 1 in set1)
+
+
 # 16 Break continue and pass statements
+
+# for i in range(5):
+#     print(i)
+#     if i == 2:
+#         pass
+
+
 # 17 conditional ternary operator
-# 18 while loop, for loop and use of enumerate
+# x = 10
+# print("pass") if x == 10 else print("x is not 10")
+
+# 18 while loop, for loop
+# li = [1,2,3,4,5]
+
+# for x in li:
+#     print(x)
+
+# i=0
+# while i<5:
+#     print(i)
+#     i+=1
+
+
 # 19 nested loops
+
+# name1 = ["John","Ashutosh","John Doe"]
+# name2 = ["John","Ashutosh","John Doe"]
+# for i in name1:
+#     for j in name2:
+#         print(i,j)
+
+
 # 20 list comprehension
+
+# ls1 =[ "apple", "banana", "cherry"]
+# ls2 =[]
+# for i in ls1:
+#     if "a" in i:
+#         ls2.append(i)
+# print(ls2)
+# ls3 =[i for i in ls1 if "a" in i]
+# print(ls3)
+
+
 # 21 iterators and iterables
 
 
