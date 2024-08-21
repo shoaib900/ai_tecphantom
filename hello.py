@@ -374,6 +374,57 @@ hello world
 
 
 # 21 iterators and iterables
+# ls = [1,2,3,4,5]
+# ls2 = iter(ls)
+# print(type(ls2))
+# print(next(ls2))
+# print(next(ls2))
+# print(next(ls2))
+# print(next(ls2))
+# print(next(ls2))
+# print(next(ls2))
+
+# 22 Function and variable scope
+
+# def s():
+#     return "hello world"
+# print(s())
+# p = s()
+# print(p)
+
+# def sum(**q):
+#     # print("hello world",p, s,q)
+#     return q["name"] + " " + str(q["age"] )+ " " + q["city"]
+
+# print(sum(name="John Doe", age=26, city="New York"))
+
+# s = 12
+# def f():
+#     p = 10
+#     print(p,s)
+# f()
+# print(s,p)
+
+
+# 23 lambda expressions
+
+# p = lambda x: x**2
+# print(p(5))
+
+
+# 24 map and filter
+# 25 Inner/ nested functions
+# 26 file handling / excaption handling
+
+
+# 27 class and objects
+# 28 instance variables and method
+# 29 Class variables and functions
+# 30 constructors and destructors
+# 31 Ineritance 
+# 32 Multilevel inheritance
+# 33 hierarchical inheritance
+# 34 Multiple inheritance,Method Resolution order
 
 
 
