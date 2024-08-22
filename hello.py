@@ -405,19 +405,89 @@ hello world
 # f()
 # print(s,p)
 
-
 # 23 lambda expressions
+
 
 # p = lambda x: x**2
 # print(p(5))
 
 
 # 24 map and filter
+
+# def s(n):
+#     if n%2 == 0:
+#         return "even"
+# numbers = [1,2,3,4,5,6,7,8,9]
+# even_numbers = list(map(s,[1,2,3,4,5,6,7,8,9,10]))
+# print(even_numbers)
+
+# def s(n):
+#     if n%2 == 0:
+#         return "even"
+# numbers = [1,2,3,4,5,6,7,8,9]
+# even_numbers = list(filter(s,[1,2,3,4,5,6,7,8,9,10]))
+# print(even_numbers)
+
+
+
+
 # 25 Inner/ nested functions
-# 26 file handling / excaption handling
+
+# def s():
+#     def p():
+#         print("hello world")
+#     p()
+
+# s()
+
+# 26 file handling / excaption/error handling
+
+# import os
+
+# os.remove("example.txt")
+
+# f = open("example.txt","r")
+# f.write("Hello, World!\n")
+# print(f.readline(5))
+# f.close()
+
+# g = open("example2.txt","r")
+# g.write("Hello, World!\n")
+# print(g.read())
+
+
+
+
+# try:
+#     print(x)
+# except:
+#     print("An error occurred")
+# else:
+#     print("No error occurred")
 
 
 # 27 class and objects
+
+# class Person:
+#     x = 10**2
+# p=Person()
+# print(p.x) # Output: 10
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def show(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+p = Person("John Doe", 26)
+p.show()
+# print(p.name,p.age)
+# p1 = Person("Ashutosh", 24)
+# print(p1.name,p1.age)
+
+
 # 28 instance variables and method
 # 29 Class variables and functions
 # 30 constructors and destructors
@@ -425,7 +495,3 @@ hello world
 # 32 Multilevel inheritance
 # 33 hierarchical inheritance
 # 34 Multiple inheritance,Method Resolution order
-
-
-
-
