@@ -473,25 +473,97 @@ hello world
 # p=Person()
 # print(p.x) # Output: 10
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def show(self):
-        print(f"Name: {self.name}, Age: {self.age}")
+#     def show(self):
+#         print(f"Name: {self.name}, Age: {self.age}")
 
-p = Person("John Doe", 26)
-p.show()
+# p = Person("John Doe", 26)
+# p.show()
 # print(p.name,p.age)
 # p1 = Person("Ashutosh", 24)
 # print(p1.name,p1.age)
 
+# 28 constructors and destructors
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def show(self):
+#         print(f"Name: {self.name}, Age: {self.age}")
+#     def __del__(self):
+#         print(f"Object {self.name} is deleted")
 
-# 28 instance variables and method
-# 29 Class variables and functions
-# 30 constructors and destructors
-# 31 Ineritance 
-# 32 Multilevel inheritance
-# 33 hierarchical inheritance
-# 34 Multiple inheritance,Method Resolution order
+# p = Person("John Doe", 26)
+# p.show()
+# del p 
+
+# # 29 Ineritance 
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+# class Cat(Animal):
+#     def meow(self):
+#         print( self.name )
+# c = Cat("cat")
+# c.meow()
+
+# 30 Multilevel inheritance
+# 31 hierarchical inheritance
+# class Parent:
+#     def __init__(self, name):
+#         self.name = name
+# class Child(Parent):
+#     def show(self):
+#         print(self.name)
+
+# class GrandChild(Child):
+#     def show_grand(self):
+#         print(self.name)
+# gc = GrandChild("grandchild")
+# gc.show()
+# ab = Parent("ab")
+# ab.show()
+# 32 Multiple inheritance,Method Resolution order(MRO)
+
+# class Parent1:
+#      def info(self):
+#         print("Parent1 info")
+# class Parent2:
+#     def info(self):
+#         print("Parent2 info")
+
+# class Child12(Parent2,Parent1):
+#     pass
+# p = Child12()
+# p.info()
+
+# 33 Polymorphism 
+
+# class P1:
+#     def display(self):
+#         print("P1 show")
+# class P2:
+#     def display(self):
+#         print("P2 show")
+# s = P1()
+# s.display()
+# s2 = P2()
+# s2.display()
+
+# 34 abstraction 
+
+class Employe:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    def display(self):
+        total = self.salary + 22300
+        print(f"Name: {self.name}, Salary: {total}")
+s = Employe("ashutosh",900000)
+s.display()
+
